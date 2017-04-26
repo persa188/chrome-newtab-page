@@ -19,13 +19,13 @@ var constants = (function(){
     {
       favicon: "https://sonarr.tv/img/logo.png",
       title: "sonarr",
-      url: "https://sanic.ca/sonarr",
+      url: "https://sonarr.tv/",
       img: "imgs/sonarr.png"
     },
     {
       favicon: "https://www.utorrent.com//faviconUT.ico",
       title: "utorrent",
-      url: "https://sanic.ca/utserver",
+      url: "https://utorrent.com",
       img: "imgs/utorrent.PNG"
     },
     {
