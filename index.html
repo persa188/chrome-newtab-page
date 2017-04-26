@@ -1,0 +1,35 @@
+<!Doctype HTML>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link
+  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+  crossorigin="anonymous">
+</head>
+<body>
+  <div>
+    <div class="header-logo">
+      <img class="google-logo" src="imgs\googlelogo_color_272x92dp.png"/>
+    </div>
+    <form id="search-form" onsubmit="view.search">
+      <input id="searchbar" type="text"
+      name="searchbar"
+      placeholder="Search Google or type URL"
+      class="searchbar"
+      >
+      <input type="submit" class="btn fa-input" value="&#xF002;">
+    </form>
+  </div>
+  <div class="th-container">
+    <div id="thumb-row-1" class="thumb-row"></div>
+    <!-- second row -->
+    <div id="thumb-row-2" class="thumb-row"></div>
+  </div>
+
+  <!-- js -->
+  <script src="js/constants.js"></script>
+  <script src="js/view.js"></script>
+
+</body>
+</html>
