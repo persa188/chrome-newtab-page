@@ -11,7 +11,7 @@ var constants = (function(){
       img: "imgs/github.PNG"
     },
     {
-      favicon: "http://www.nwanime.tv/favicon.ico",
+      favicon: "imgs/nwanime-ico.ico",
       title: "nwanime",
       url: "http://nwanime.com",
       img: "imgs/nwanime.PNG"
